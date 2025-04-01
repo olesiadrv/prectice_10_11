@@ -1,0 +1,14 @@
+com\example\spring_pr3\service\StudentServiceImpl.class
+com\example\spring_pr3\controller\HelloController.class
+com\example\spring_pr3\config\ModelMapperConfig.class
+com\example\spring_pr3\config\SwaggerConfig.class
+com\example\spring_pr3\model\Student.class
+com\example\spring_pr3\service\StudentService.class
+com\example\spring_pr3\model\Role.class
+com\example\spring_pr3\model\User.class
+com\example\spring_pr3\dto\ResponseStudentDTO.class
+com\example\spring_pr3\controller\HomeController.class
+com\example\spring_pr3\dto\RequestStudentDTO.class
+com\example\spring_pr3\repository\StudentRepository.class
+com\example\spring_pr3\SpringPr3Application.class
+com\example\spring_pr3\controller\StudentRestController.class

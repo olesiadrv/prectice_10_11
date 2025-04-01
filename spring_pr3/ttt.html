@@ -1,0 +1,115 @@
+<div id="particles-js" style="
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #000;
+"></div>
+
+<script>
+// Асинхронне завантаження particles.js
+function loadParticles() {
+  var script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+  script.onload = initParticles;
+  document.head.appendChild(script);
+}
+
+function initParticles() {
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 60, density: { enable: true, value_area: 800 } },
+      color: { value: "#2f3b64" },
+      shape: { type: "circle" },
+      opacity: { value: 0.5 },
+      size: { value: 3, random: true },
+      line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+      move: { enable: true, speed: 3 }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" },
+        onclick: { enable: true, mode: "push" }
+      }
+    }
+  });
+}
+
+// Запускаємо після повного завантаження сторінки
+window.addEventListener('load', loadParticles);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+нрав 
+<div class="particles-wrapper" style="
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+">
+  <div class="blur-background" style="
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter: blur(20px);
+    -webkit-filter: blur(20px);
+    opacity: 0.8;
+  "></div>
+  <div id="particles-js" style="
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  "></div>
+</div>
+
+<script>
+// Асинхронне завантаження particles.js
+function loadParticles() {
+  var script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+  script.onload = initParticles;
+  document.head.appendChild(script);
+}
+
+function initParticles() {
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 60, density: { enable: true, value_area: 800 } },
+      color: { value: "#2f3b64" },
+      shape: { type: "circle" },
+      opacity: { value: 0.5 },
+      size: { value: 3, random: true },
+      line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
+      move: { enable: true, speed: 3 }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "repulse" },
+        onclick: { enable: true, mode: "push" }
+      }
+    }
+  });
+}
+
+// Запускаємо після повного завантаження сторінки
+window.addEventListener('load', loadParticles);
+</script>
